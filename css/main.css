@@ -285,3 +285,43 @@ textarea {
         page-break-after: avoid;
     }
 }
+
+
+/* My CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.fixednav {
+    position: fixed;
+    width: 100%;
+    background: #000;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    flex-basis: 70%;
+    font-size: 1.5em;
+}
+
+.menuicon {
+    font-size: 1.5em;
+    flex-basis: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
