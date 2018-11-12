@@ -299,6 +299,12 @@ body {
 }
 
 
+section {
+    padding: 4em 1.5em 3em 1.5em;
+    border-bottom: .125em solid #eee;
+}
+
+
 /* Nav */
 
 .fixednav {
@@ -332,6 +338,7 @@ h1 {
 .imagesection {
     position: relative;
     color: #fff;
+    padding: 2em 0 0 0;
 }
 
 .bgimage {
@@ -374,16 +381,12 @@ h2 {
     color: #000;
 }
 
-
 /* About Us */
 
-.about {
-    padding: 4em 1.5em 3em 1.5em;
-    border-bottom: .125em solid #ccc;
-}
 
 h3 {
     font-size: 1.3em;
+    margin: 0 0 1em 0;
 }
 
 .about p {
@@ -393,4 +396,41 @@ h3 {
 }
 
 
+/* Work */
 
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin: .5em 0;
+}
+
+.workimg {
+    flex-basis: 49.5%;
+    position: relative;
+}
+
+.projectimg {
+    width: 100%;
+    opacity: .3;
+}
+
+.workimg:hover .projectimg{
+    opacity: 1;
+}
+
+h4 {
+    position: absolute;
+    text-align: center;
+    color: #000;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.workimg:hover h4 {
+    color: #fff;
+}
