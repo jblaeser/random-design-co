@@ -299,6 +299,8 @@ body {
 }
 
 
+/* Nav */
+
 .fixednav {
     position: fixed;
     width: 100%;
@@ -324,6 +326,8 @@ h1 {
     flex-direction: column;
     justify-content: center;
 }
+
+/* Image Sections */
 
 .imagesection {
     position: relative;
@@ -369,4 +373,24 @@ h2 {
 .imglink:hover a {
     color: #000;
 }
+
+
+/* About Us */
+
+.about {
+    padding: 4em 1.5em 3em 1.5em;
+    border-bottom: .125em solid #ccc;
+}
+
+h3 {
+    font-size: 1.3em;
+}
+
+.about p {
+    margin: 1em 0 0 0;
+    font-size: 1.3em;
+    line-height: 1.6em;
+}
+
+
 
