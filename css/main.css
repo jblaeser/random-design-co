@@ -434,3 +434,13 @@ h4 {
 .workimg:hover h4 {
     color: #fff;
 }
+
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 1em;
+    font-size: 1.1em;
+}
